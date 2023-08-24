@@ -1,0 +1,32 @@
+.estampa-logo {
+    width: 150px;
+}
+
+/* Estilos para el Navbar y sus elementos internos */
+.custom-navbar {
+    background-color: #223644;
+}
+
+.custom-navbar .nav-link {
+    color: #ffffff;
+}
+
+.custom-navbar.navbar-collapse {
+    background-color: #333;
+    /* Cambia el color de fondo cuando está colapsado */
+    transition: background-color 0.3s ease;
+    /* Agrega una transición suave */
+}
+
+.custom-navbar.navbar-collapse a {
+    color: red;
+    /* Cambia el color del texto cuando está colapsado */
+}
+
+.custom-nav-link {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    /* Esto quita el subrayado */
+    /* Otros estilos que desees aplicar a los enlaces */
+}
