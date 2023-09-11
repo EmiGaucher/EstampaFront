@@ -1,0 +1,12 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Esto centrará verticalmente el contenido */
+    min-height: 85vh;
+
+}
+
+.register-card {
+    width: 30%;
+}

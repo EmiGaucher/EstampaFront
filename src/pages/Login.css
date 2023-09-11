@@ -1,10 +1,28 @@
 .login-container {
-    background-color: #b8b6b6;
-    height: calc(100vh - 64.5px);
     display: flex;
     justify-content: center;
     align-items: center;
+    /* Esto centrará verticalmente el contenido */
+    min-height: 80vh;
 }
+
+.fade-card {
+    animation-name: animacion;
+    animation-duration: 1s;
+}
+
+@keyframes animacion {
+    0% {
+        opacity: 0;
+    }
+
+
+
+    100% {
+        opacity: 1;
+    }
+}
+
 
 .loginImg {
     width: 100%;
@@ -19,6 +37,7 @@
 
 .card-body {
     padding: 1.25rem;
+
 }
 
 .card-body .mb-4 {
